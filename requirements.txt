@@ -1,0 +1,9 @@
+Flask==2.3.3
+Flask-Login==0.6.3
+Flask-SQLAlchemy==3.0.5
+Werkzeug==2.3.7
+email-validator==2.0.0
+SQLAlchemy==2.0.21
+transformers==4.52.3
+nltk==3.9.1
+python-dotenv==1.0.0

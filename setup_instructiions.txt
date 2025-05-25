@@ -1,0 +1,26 @@
+RE AI - LOCAL SETUP INSTRUCTIONS FOR WINDOWS 64-BIT
+
+1. DOWNLOAD AND INSTALL PREREQUISITES:
+   - Python 3.11: https://www.python.org/ftp/python/3.11.10/python-3.11.10-amd64.exe
+   - PostgreSQL 15: https://get.enterprisedb.com/postgresql/postgresql-15.6-1-windows-x64.exe
+
+2. OPEN COMMAND PROMPT (cmd) AND RUN:
+   pip install Flask==2.3.3 Flask-Login==0.6.3 Flask-SQLAlchemy==3.0.5 psycopg2-binary==2.9.7 Werkzeug==2.3.7 email-validator==2.0.0 SQLAlchemy==2.0.21
+
+3. CREATE PROJECT FOLDER:
+   mkdir C:\mindcare-ai
+   cd C:\mindcare-ai
+
+4. COPY ALL PROJECT FILES TO C:\mindcare-ai\
+
+5. SET ENVIRONMENT VARIABLES:
+   set DATABASE_URL=postgresql://postgres:yourpassword@localhost:5432/mindcare
+   set SESSION_SECRET=mindcare-secret-key-2024
+
+6. RUN THE APPLICATION:
+   python main.py
+
+7. OPEN BROWSER:
+   http://localhost:5000
+
+Your MindCare AI application will be running locally!
